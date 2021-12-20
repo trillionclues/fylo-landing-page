@@ -17,12 +17,13 @@
 /* Navigation */
 .container {
   font-family: "Open-sans", sans-serif;
-  min-width: 375px;
   margin: 0 auto;
 }
 
 body{
   background-color: white;
+  font-size: 1.1rem;
+  margin: 0;
 }
 
 section{
@@ -40,14 +41,10 @@ header {
   
 }
 
-html{
-    background-color: white;
-    overflow-x: hidden;
-}
-
 .logo {
   cursor: pointer;
   width: 15vh;
+  color: var(--Very-Dark-Blue);
 }
 
 .nav_links {
@@ -59,6 +56,14 @@ html{
   padding: 0 20px;
   text-align: center;
   
+}
+
+a{
+  color: #3da08f;
+}
+
+.green{
+  font-size: 0.9rem;
 }
 
 
@@ -119,29 +124,77 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image:url(./images/bg-curve-desktop.svg);
+  background-image: url(./images/bg-curve-desktop.svg);
   background-size: cover;
   background-position: center;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  height: 100%;
+  padding-bottom: 50px;
 }
 
 
 
 .section-2 h1{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: var(--Very-Dark-Blue);
   line-height: 1.5; 
   margin-top: 5rem;
+  
+  
 }
 
 .section-2 p{
   font-size: 0.9rem;
   color: var(--Desaturated-Blue);
-  margin-top: 1rem;
-  
+  margin-top: 1rem; 
+}
+
+.p2{
+  margin-top:2rem ;
+  margin-bottom: 1rem;
 }
 
 .illustration-2{
  width: 40vw;
- 
-}
+ margin-left: 50px;
+ }
+
+ .testimonial-box{
+   background-color: #fff;
+   box-shadow: 0.1rem 0.1rem rgba(0, 0, 0, .1);
+   border-radius: 5px;
+   margin-top: 40px;
+   padding: 25px;
+   width: 80%;
+   /* height: 50vh; */
+ }
+
+ .testimonial-box p{
+   font-size: 14px;
+   letter-spacing: 1px;
+ }
+
+ .avatar{
+   display: flex;
+   margin-top: 2rem;
+ }
+
+ .avatar img{
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   margin-right: 0.2rem;
+ }
+
+ .avatar-content h4{
+   font-size: 0.8rem;
+   margin: 0;
+   margin-top: 0.5rem;
+   color: var(--Very-Dark-Blue);
+  
+ }
+
+ .avatar-content small{
+   font-size:0.5rem ;
+   color: var(--Desaturated-Blue);
+ }

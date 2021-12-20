@@ -198,3 +198,36 @@ button {
    font-size:0.5rem ;
    color: var(--Desaturated-Blue);
  }
+
+ .section-3{
+   display: flex;
+   background-color: var(--Desaturated-Blue);
+   background-position: center;
+   background-size: cover;
+   color: #fff;
+   align-items: center;
+   justify-content: center;
+ }
+
+ /* .section-3 form{
+   flex-direction: column;
+ } */
+
+ .section-3 form input{
+   border: none;
+   /* width: 100%; */
+   margin-left: 30%;
+   padding-right: 30%;
+ }
+
+ .section-3 form button{
+   margin: 20px 0;
+  margin-left: 30%;
+ }
+
+ .section-3 p{
+   font-size: 1rem;
+   margin: 0.5rem;
+ }
+
+ 

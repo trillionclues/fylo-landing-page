@@ -230,4 +230,48 @@ button {
    margin: 0.5rem;
  }
 
+ footer{
+   background-color: var(--Very-Dark-Blue);
+   color: white;
+   padding: 50px 0;
+ }
+
+ footer ul{
+   list-style-type: none;
+ }
+
+ footer ul li{
+   margin-bottom: 20px;
+ }
+
+ .social{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+ }
+
+ .footer-4 a{
+   color: white;
+   /* margin: 10px; */
+ }
+
+ footer .circle{
+   border: 1px solid white;
+   border-radius: 50%;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 10px;
+   height: 30px;
+   width: 30px;
+   text-decoration: none;
+ }
+
+ /* .footer_links2{
+   
+ } */
+
+
+
  

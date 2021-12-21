@@ -15,6 +15,11 @@
       href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <link rel="stylesheet" href="styles.css" />
 
     <title>Fylo landing page</title>
@@ -74,29 +79,31 @@
 
           <br />
 
-          <p>
+          <p class="p2">
             Securely share files and folders with friends, family and collegues
             for live collaboration. No email attachments required!
           </p>
 
           <span class="see-fylo">
-            <a href="#">See how Fylo works</a>
-            <img class="arrow" src="images/icon-arrow.svg" alt="" />
+            <a class="green" href="#"
+              >See how Fylo works
+              <img class="arrow" src="images/icon-arrow.svg" alt="" />
+            </a>
           </span>
 
-          <aside>
+          <aside class="testimonial-box">
             <img src="images/icon-quotes.svg" alt="" />
-            <h3>
-              Fylo has improved our team prodctivy by an order of magnitude.
+            <p>
+              Fylo has improved our team productivy by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.
-            </h3>
+            </p>
 
-            <div class="avatar-card">
-              <img src="images/avatar-testimonial.jpg" alt="" />
+            <div class="avatar">
+              <div><img src="images/avatar-testimonial.jpg" alt="" /></div>
 
-              <div class="avatar">
-                <h3>Kyle Burton</h3>
+              <div class="avatar-content">
+                <h4>Kyle Burton</h4>
                 <small>Founder & CEO, Huddle</small>
               </div>
             </div>
@@ -106,14 +113,16 @@
         <img class="illustration-2" src="images/illustration-2.svg" alt="" />
       </section>
 
-      <section class="section-3">
+      <section class=" home section-3">
         <div class="lead-3">
           <h1>
             Get early access today
           </h1>
           <p>
             It only takes a minute to sign up and our free starter tier is
+            <br />
             extremely generous. If you have any questions, our support team
+            <br />
             would be happy to help.
           </p>
         </div>
@@ -126,24 +135,24 @@
             placeholder="email@example.com"
             required
           />
-          <a href="#" class="get started">
+          <a href="#" class="get-started">
             <button>Get Started For Free</button>
           </a>
         </form>
       </section>
     </div>
     <footer>
-      <img class="logo-footer" src="images/logo.svg" alt="" />
+      <img class="logo-footer" src="./images/logo.svg" alt="" />
       <div class="section-footer">
         <div class="footer-1">
           <ul>
             <li class="footer_links1">
-              <img class="phone" src="images/icon-phone.svg" alt="" />
+              <img class="phone" src="./images/icon-phone.svg" alt="" />
               Phone: +2349-03-294-2903
             </li>
 
             <li>
-              <img class="email" src="images/icon-email.svg" alt="" />
+              <img class="email" src="./images/icon-email.svg" alt="" />
               example@fylo.com
             </li>
           </ul>
@@ -183,11 +192,20 @@
         <div class="footer-4">
           <ul class="social">
             <li>
-              <a class="facebook" href="#"></a>
+              <a class="circle" href="#">
+                <i class="fa fa-facebook"></i>
+              </a>
             </li>
-              <a class="twitter" href="#"></a>
+
+            <li>
+              <a class="circle" href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
             </li>
-              <a class="instagram" href="#"></a>
+            <li>
+              <a class="circle" href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
             </li>
           </ul>
         </div>

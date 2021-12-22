@@ -231,12 +231,11 @@ footer {
     
 }
 .footer-links{
-   padding: 0 60px;
+   padding: 0px 80px;
 }
 
 
 .footer-links ul li a{
-  font-size: 10px;
 	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;
@@ -247,6 +246,7 @@ footer {
 .section-footer{
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 
@@ -257,6 +257,7 @@ footer ul {
 
 footer ul li {
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .footer-4 .social-links a {

@@ -225,43 +225,63 @@ button {
 footer {
   background-color: var(--Very-Dark-Blue);
   color: white;
-  padding: 50px 0;
+  padding: 50px 70px;
+    background-size: cover;
+    background-position: center;
+    
 }
+.footer-links{
+   padding: 0 60px;
+}
+
+
+.footer-links ul li a{
+  font-size: 10px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+}
+
+.section-footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 footer ul {
   list-style-type: none;
+  
 }
 
 footer ul li {
   margin-bottom: 20px;
 }
 
-.social {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-4 a {
-  color: white;
-  /* margin: 10px; */
-}
-
-footer .circle {
-  border: 1px solid white;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 10px;
+.footer-4 .social-links a {
+  display: inline-block;
   height: 30px;
   width: 30px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  margin-right:10px;
+  line-height: 30px;
   text-decoration: none;
 }
 
-/* .footer_links2{
-   
- } */
+ footer .logo-footer{
+  width: 20vh;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px) {
   header {

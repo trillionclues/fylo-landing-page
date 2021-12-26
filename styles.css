@@ -511,7 +511,9 @@ footer .logo-footer {
   }
 }
 
-@media only screen and (min-width: 768px) {
+
+/*
+@media only screen and (min-width: 600px) {
   .home input {
     margin: 0 14.2rem;
   }

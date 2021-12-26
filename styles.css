@@ -510,35 +510,3 @@ footer .logo-footer {
     color: var(--Light-Gray);
   }
 }
-
-
-/*
-@media only screen and (min-width: 600px) {
-  .home input {
-    margin: 0 14.2rem;
-  }
-
-  .email,
-  .email-bt {
-    margin: 1px 0;
-  }
-
-  .section-3 form input {
-    margin-top: 5rem;
-    margin: 10px;
-    display: inline-block;
-  }
-
-  .section-3 form button {
-    text-align: center;
-    margin-top: 5px;
-    margin-left: 10px;
-    padding: 10px 78.2px;
-    display: inline-block;
-    margin-bottom: 5rem;
-  }
-
-  .footer-4 .social-links {
-    margin: 0 1rem;
-  }
-}
